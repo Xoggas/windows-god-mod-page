@@ -65,7 +65,7 @@ const isExpanded = ref(false);
 }
 
 .dropdown-arrow {
-  justify-self: end;
+  margin-left: auto;
 }
 
 .body {

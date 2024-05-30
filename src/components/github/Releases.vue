@@ -18,7 +18,7 @@ onMounted(async () => {
     releases.value = await loadReleases();
   }
   catch {
-    hasFailed = true;
+    hasFailed.value = true;
   }
 });
 
