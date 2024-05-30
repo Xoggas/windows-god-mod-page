@@ -1,5 +1,16 @@
-<script setup></script>
+<script setup>
+import { RouterView } from 'vue-router';
+import '@/assets/styles/reset.css';
+import '@/assets/styles/main.css';
+</script>
 
-<template></template>
+<template>
+  <RouterView />
+</template>
 
-<style scoped></style>
+<style>
+body {
+  min-height: 100vh;
+  background-color: black;
+}
+</style>
