@@ -1,29 +1,9 @@
-# app
+# Setup 
 
-This template should help get you started developing with Vue 3 in Vite.
+### Environment
 
-## Recommended IDE Setup
+In `env.production` change `VITE_GITHUB_REPOSITORY_NAME` to your repository where you will store your releases.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+# Notes
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+All the content of the page will be automatically deployed to GitHub Pages once you make new commits. 
