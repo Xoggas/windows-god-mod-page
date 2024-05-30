@@ -36,6 +36,7 @@ footer {
   border-top-color: var(--border-color-2);
   border-top-width: 0.5px;
   border-top-style: solid;
+  margin-top: 2em;
 }
 
 p {

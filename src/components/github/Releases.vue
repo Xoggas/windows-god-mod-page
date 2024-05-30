@@ -15,7 +15,7 @@ const isEmpty = computed(() => releases.value.length == 0 || releases == null);
 
 onMounted(async () => {
   try {
-    releases.value = await loadReleases();
+    releases.value = (await loadReleases()).filter(x => x.name && x.assets.length != 0);
   }
   catch {
     hasFailed.value = true;
